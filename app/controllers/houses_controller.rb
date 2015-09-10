@@ -26,7 +26,6 @@ class HousesController < ApplicationController
 	#Show
 	def show
 		@house = House.find(params[:id])
-		redirect_to("/houses/:id")
 	end
 
 	#Create

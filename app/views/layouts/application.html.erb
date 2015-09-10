@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NiceHouses</title>
+  <title>Nice Houses Brah</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header>
+		<p class="title"><a href="/houses">nice houses</a>
+		<ul>
+			<li class="nav-links"><a href="/about">about</a></li>
+			<li class="nav-links"><a href="/contact">contact</a></li>
+			<li class="nav-links"><a href="/find_us">find us</a></li>
+		</ul>
+	</header>
 
+	
 <%= yield %>
 
 </body>

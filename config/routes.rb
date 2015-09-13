@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get '/houses/:id' => 'houses#show'
   get '/houses/:id/edit' => 'houses#edit'
   put '/houses/:id' => 'houses#update'
+  patch '/houses/:id' => 'houses#update'
   delete '/houses/:id/destroy' => 'houses#destroy'
 
 

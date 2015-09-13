@@ -53,7 +53,6 @@ class HousesController < ApplicationController
 	#Edit
 	def edit
 		@house = House.find(params[:id])
-		redirect_to("/houses")
 	end
 
 	#Delete
